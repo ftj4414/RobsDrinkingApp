@@ -19,7 +19,7 @@
 -　　Table: MyGuests (user information)   
 -　　Table: Record (DDT results)  
 -　　Table: SSTRecord (DDT blocks results)  
--　　Table: SSTReact (DDT blocks results)  
+-　　Table: SSTReact (DDT each trial's results)  
 
 ## Contribution
 
