@@ -22,11 +22,11 @@
 		8373962921648F9500C2E8A7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8373962821648F9500C2E8A7 /* MainViewController.swift */; };
 		83739631216492A500C2E8A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8373962F216492A500C2E8A7 /* Main.storyboard */; };
 		83739632216492A500C2E8A7 /* SSTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83739630216492A500C2E8A7 /* SSTViewController.swift */; };
+		8375E9722185C4F600C96BF9 /* DDT.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8375E9712185C4F600C96BF9 /* DDT.storyboard */; };
+		8375E9742185C5C600C96BF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8375E9732185C5C600C96BF9 /* Main.storyboard */; };
 		83B74397213A40050070C7F1 /* AFNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B74396213A40050070C7F1 /* AFNetworkingManager.swift */; };
 		83C262AF21534F3A00D122E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C262A821534F3A00D122E0 /* LaunchScreen.storyboard */; };
 		83C262B521534FBF00D122E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C262B421534FBF00D122E0 /* ViewController.swift */; };
-		83C262BE2153529200D122E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83C262BD2153529200D122E0 /* Main.storyboard */; };
-		83CCF36B215E9ECB00CD581F /* DDT.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83CCF36A215E9ECB00CD581F /* DDT.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,11 +113,11 @@
 		8373962821648F9500C2E8A7 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		8373962F216492A500C2E8A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		83739630216492A500C2E8A7 /* SSTViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSTViewController.swift; sourceTree = "<group>"; };
+		8375E9712185C4F600C96BF9 /* DDT.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DDT.storyboard; sourceTree = "<group>"; };
+		8375E9732185C5C600C96BF9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Testmk2/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		83B74396213A40050070C7F1 /* AFNetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkingManager.swift; sourceTree = "<group>"; };
 		83C262A821534F3A00D122E0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Testmk2/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		83C262B421534FBF00D122E0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
-		83C262BD2153529200D122E0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
-		83CCF36A215E9ECB00CD581F /* DDT.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DDT.storyboard; sourceTree = SOURCE_ROOT; };
 		A73E6EEB9D763E47689B8973 /* Pods_RobsDrinkingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RobsDrinkingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E202DE099C913BF93E1D3CEF /* Pods-RobsDrinkingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RobsDrinkingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RobsDrinkingApp/Pods-RobsDrinkingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,8 +173,8 @@
 		833D4F2821647D780054B5F1 /* DDT */ = {
 			isa = PBXGroup;
 			children = (
+				8375E9712185C4F600C96BF9 /* DDT.storyboard */,
 				8373962821648F9500C2E8A7 /* MainViewController.swift */,
-				83CCF36A215E9ECB00CD581F /* DDT.storyboard */,
 			);
 			path = DDT;
 			sourceTree = "<group>";
@@ -210,8 +210,8 @@
 				833D4F2821647D780054B5F1 /* DDT */,
 				83C262B8215351C000D122E0 /* Tools */,
 				834C1ABF2137D96F004F6760 /* AppDelegate.swift */,
+				8375E9732185C5C600C96BF9 /* Main.storyboard */,
 				834553D621858DB5003CD0FF /* Info.plist */,
-				83C262BD2153529200D122E0 /* Main.storyboard */,
 				8307E6242153605D00FDDCC1 /* RegisterViewController.swift */,
 				83739626216484EC00C2E8A7 /* SelectionViewController.swift */,
 				83C262A821534F3A00D122E0 /* LaunchScreen.storyboard */,
@@ -420,8 +420,8 @@
 			files = (
 				834553D721858DB5003CD0FF /* Info.plist in Resources */,
 				83739631216492A500C2E8A7 /* Main.storyboard in Resources */,
-				83C262BE2153529200D122E0 /* Main.storyboard in Resources */,
-				83CCF36B215E9ECB00CD581F /* DDT.storyboard in Resources */,
+				8375E9722185C4F600C96BF9 /* DDT.storyboard in Resources */,
+				8375E9742185C5C600C96BF9 /* Main.storyboard in Resources */,
 				83C262AF21534F3A00D122E0 /* LaunchScreen.storyboard in Resources */,
 				834C1AC72137D96F004F6760 /* Assets.xcassets in Resources */,
 			);
